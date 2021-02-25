@@ -101,6 +101,7 @@ def scan(text):
     while (len(text) > 0):
         (match, kind) = next_match(text)
         lexeme = match.group()
+        print (kind)
         if (kind): tokens.append(Token(kind, lexeme))
         text = text[len(lexeme):]
     return tokens

@@ -99,6 +99,8 @@ function scan(text) {
     }
     else if ((m = text.match(/^\d+/))) {
       tokens.push(new Token('INT', m[0]));
+    }else if(m = text.match(/^\*\*/)){
+	tokens.push(new Token(m[0], m[0]));
     }
     else {
       m = text.match(/^./);

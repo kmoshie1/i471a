@@ -29,11 +29,18 @@ def next_match(text):
 
 def scan(text):
     tokens = []
+    comment = 0
+    temp = False
     while (len(text) > 0):
         (match, kind) = next_match(text)
         lexeme = match.group()
-        if (kind): tokens.append(Token(kind, lexeme))
+        if(kind == '/'):
+            comment += 1
+            temp = True
+        if (kind and comment != 2 and temp != True): 
+            tokens.append(Token(kind, lexeme))
         text = text[len(lexeme):]
+        temp = False
     return tokens
 
 def main():
