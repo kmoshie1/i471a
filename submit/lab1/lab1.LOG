@@ -6489,4 +6489,140 @@ kmoshie1@remote07:~/i471a/submit/lab1$ git push --help
            The [1mrefs/tags/*[0m namespace will accept any kind of object (as commits, trees and blobs can be tagged), and any updates to them will be[m
            rejected.[m
 [m
-           It’s possible to push any type of object to
+           It’s possible to push any type of object to any namespace outside of [1mrefs/{tags,heads}/*[0m. In the case of tags and commits, these will be[m
+           treated as if they were the commits inside [1mrefs/heads/*[0m for the purposes of whether the update is allowed.[m
+[m
+           I.e. a fast-forward of commits and tags outside [1mrefs/{tags,heads}/*[0m is allowed, even in cases where what’s being fast-forwarded is not a[m
+           commit, but a tag object which happens to point to a new commit which is a fast-forward of the commit the last tag (or commit) it’s replacing.[m
+           Replacing a tag with an entirely different tag is also allowed, if it points to the same commit, as well as pushing a peeled tag, i.e. pushing[m
+           the commit that existing tag object points to, or a new tag object which an existing commit points to.[m
+[m
+           Tree and blob objects outside of [1mrefs/{tags,heads}/*[0m will be treated the same way as if they were inside [1mrefs/tags/*[0m, any update of them will[m
+           be rejected.[m
+[m
+           All of the rules described above about what’s not allowed as an update can be overridden by adding an the optional leading [1m+[0m to a refspec (or[m
+           using [1m--force[0m command line option). The only exception to this is that no amount of forcing will make the [1mrefs/heads/*[0m namespace accept a[m
+           non-commit object. Hooks and configuration can also override or amend these rules, see e.g.  [1mreceive.denyNonFastForwards[0m in [1mgit-config[0m(1) and[m
+           [1mpre-receive[0m and [1mupdate[0m in [1mgithooks[0m(5).[m
+[m
+           Pushing an empty <src> allows you to delete the <dst> ref from the remote repository. Deletions are always accepted without a leading [1m+[0m in the[m
+[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K[7mNo next tag  (press RETURN)[27m[85;1H[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tkmoshie1@remote07:~/i471a/submit/lab1$ gitp[K push
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+To https://github.com/kmoshie1/i471a.git
+ [31m! [rejected]       [m lab1 -> lab1 (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/kmoshie1/i471a.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+kmoshie1@remote07:~/i471a/submit/lab1$ git push upstea[K[Kream 
+fatal: 'upstream' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull upstream mainb[K
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+fatal: 'upstream' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kmoshie1@remote07:~/i471a/submit/lab1$ git merge[K[K[K[K[Kcheckout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab1/lab1.LOG
+Please commit your changes or stash them before you switch branches.
+Aborting
+kmoshie1@remote07:~/i471a/submit/lab1$ git add .
+kmoshie1@remote07:~/i471a/submit/lab1$ git commit -m "wrong stuff'[K"
+[lab1 457b091] wrong stuff
+ 1 file changed, 284 insertions(+), 1 deletion(-)
+kmoshie1@remote07:~/i471a/submit/lab1$ git push
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+To https://github.com/kmoshie1/i471a.git
+ [31m! [rejected]       [m lab1 -> lab1 (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/kmoshie1/i471a.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull main
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull main[K[K[K[Klab1
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+fatal: 'lab1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+CONFLICT (modify/delete): submit/lab1/lab1.LOG deleted in ace33e7616cf9ffa25d6dddacaa5b3203724b49b and modified in HEAD. Version HEAD of submit/lab1/lab1.LOG left in tree.
+Removing submit/lab1/exercises/regex/table-lexer.mjs
+Removing submit/lab1/exercises/regex/lexer.mjs
+Removing submit/lab1/exercises/regex/lex3.mjs
+Removing submit/lab1/exercises/regex/lex2.mjs
+Removing submit/lab1/exercises/regex/lex1.mjs
+Removing submit/lab1/exercises/regex/data.txt
+Removing submit/lab1/exercises/lexer/lexer.py
+Removing submit/lab1/exercises/lexer/lexer.mjs
+Removing submit/lab1/exercises/lexer/data.txt
+Removing submit/lab1/exercises/calc/expn-data.txt
+Removing submit/lab1/exercises/calc/data.txt
+Removing submit/lab1/exercises/calc/calc.py
+CONFLICT (modify/delete): submit/lab1/exercises/calc/calc.mjs deleted in ace33e7616cf
