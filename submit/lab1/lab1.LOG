@@ -6206,4 +6206,287 @@ kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ cat expn-data.json > json_p
 kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ ls
 ast.mjs  ast.py  data.json  data.txt  expn-data.json  expn-data.txt  json_pp
 kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ cat jk[Kson_pp 
-[{"tag":"-","kids":
+[{"tag":"-","kids":[{"tag":"**","kids":[{"tag":"INT","kids":[],"value":2},{"tag":"**","kids":[{"tag":"INT","kids":[],"value":2},{"tag":"INT","kids":[],"value":3}]}]}]},{"tag":"+","kids":[{"tag":"INT","kids":[],"value":1},{"tag":"**","kids":[{"tag":"INT","kids":[],"value":2},{"tag":"+","kids":[{"tag":"INT","kids":[],"value":1},{"tag":"INT","kids":[],"value":2}]}]}]},{"tag":"+","kids":[{"tag":"INT","kids":[],"value":1},{"tag":"-","kids":[{"tag":"**","kids":[{"tag":"INT","kids":[],"value":2},{"tag":"+","kids":[{"tag":"INT","kids":[],"value":1},{"tag":"INT","kids":[],"value":2}]}]}]}]}]
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ rm json_pp 
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ echo expn-data.json | json_pp
+malformed JSON string, neither array, object, number, string or atom, at character offset 0 (before "expn-data.json\n") at /usr/bin/json_pp line 43.
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ echo expn-data.json | json_pp[K[K[K[K[K[K[Kpython -m json.tool
+No JSON object could be decoded
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ echo expn-data.json | python -m json.tool[12Pjson_pppython -m json.tool[12Pjson_pppython -m json.tool[Kecho expn-data.json | python -m json.tool[Kclear
+[H[2J[3Jkmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ ls
+ast.mjs  ast.py  data.json  data.txt  expn-data.json  expn-data.txt
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ c[Kpython -m json.tool expn-data.json 
+[
+    {
+        "kids": [
+            {
+                "kids": [
+                    {
+                        "kids": [],
+                        "tag": "INT",
+                        "value": 2
+                    },
+                    {
+                        "kids": [
+                            {
+                                "kids": [],
+                                "tag": "INT",
+                                "value": 2
+                            },
+                            {
+                                "kids": [],
+                                "tag": "INT",
+                                "value": 3
+                            }
+                        ],
+                        "tag": "**"
+                    }
+                ],
+                "tag": "**"
+            }
+        ],
+        "tag": "-"
+    },
+    {
+        "kids": [
+            {
+                "kids": [],
+                "tag": "INT",
+                "value": 1
+            },
+            {
+                "kids": [
+                    {
+                        "kids": [],
+                        "tag": "INT",
+                        "value": 2
+                    },
+                    {
+                        "kids": [
+                            {
+                                "kids": [],
+                                "tag": "INT",
+                                "value": 1
+                            },
+                            {
+                                "kids": [],
+                                "tag": "INT",
+                                "value": 2
+                            }
+                        ],
+                        "tag": "+"
+                    }
+                ],
+                "tag": "**"
+            }
+        ],
+        "tag": "+"
+    },
+    {
+        "kids": [
+            {
+                "kids": [],
+                "tag": "INT",
+                "value": 1
+            },
+            {
+                "kids": [
+                    {
+                        "kids": [
+                            {
+                                "kids": [],
+                                "tag": "INT",
+                                "value": 2
+                            },
+                            {
+                                "kids": [
+                                    {
+                                        "kids": [],
+                                        "tag": "INT",
+                                        "value": 1
+                                    },
+                                    {
+                                        "kids": [],
+                                        "tag": "INT",
+                                        "value": 2
+                                    }
+                                ],
+                                "tag": "+"
+                            }
+                        ],
+                        "tag": "**"
+                    }
+                ],
+                "tag": "-"
+            }
+        ],
+        "tag": "+"
+    }
+]
+kmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ x[Kclear
+[H[2J[3Jkmoshie1@remote07:~/i471a/submit/lab1/exercises/ast$ cd ..
+kmoshie1@remote07:~/i471a/submit/lab1/exercises$ clear
+[H[2J[3Jkmoshie1@remote07:~/i471a/submit/lab1/exercises$ ls
+01-regex  02-lexer  03-calc  04-ast  ast  calc	lexer  regex
+kmoshie1@remote07:~/i471a/submit/lab1/exercises$ cd ..
+kmoshie1@remote07:~/i471a/submit/lab1$ git checkout lab1
+M	submit/lab1/exercises/ast/ast.mjs
+M	submit/lab1/exercises/calc/calc.mjs
+M	submit/lab1/lab1.LOG
+Already on 'lab1'
+Your branch is up to date with 'origin/lab1'.
+kmoshie1@remote07:~/i471a/submit/lab1$ git add .
+kmoshie1@remote07:~/i471a/submit/lab1$ git commit -m 'sta[K[K[Kwrong last two'
+[lab1 8cb2d1c] wrong last two
+ 3 files changed, 3045 insertions(+), 5 deletions(-)
+kmoshie1@remote07:~/i471a/submit/lab1$ git push -u org[Kigin lab1
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+To https://github.com/kmoshie1/i471a.git
+ [31m! [rejected]       [m lab1 -> lab1 (fetch first)
+[31merror: failed to push some refs to 'https://github.com/kmoshie1/i471a.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+remote: Enumerating objects: 9, done.[K
+remote: Counting objects:  11% (1/9)[Kremote: Counting objects:  22% (2/9)[Kremote: Counting objects:  33% (3/9)[Kremote: Counting objects:  44% (4/9)[Kremote: Counting objects:  55% (5/9)[Kremote: Counting objects:  66% (6/9)[Kremote: Counting objects:  77% (7/9)[Kremote: Counting objects:  88% (8/9)[Kremote: Counting objects: 100% (9/9)[Kremote: Counting objects: 100% (9/9), done.[K
+remote: Compressing objects:  16% (1/6)[Kremote: Compressing objects:  33% (2/6)[Kremote: Compressing objects:  50% (3/6)[Kremote: Compressing objects:  66% (4/6)[Kremote: Compressing objects:  83% (5/6)[Kremote: Compressing objects: 100% (6/6)[Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 2.87 KiB | 81.00 KiB/s, done.
+From https://github.com/kmoshie1/i471a
+   9eb4f06..ace33e7  lab1       -> origin/lab1
+   e676646..14d237b  lab0       -> origin/lab0
+   c6b3190..98b9506  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+	submit/lab1/lab1.LOG
+Please commit your changes or stash them before you merge.
+Aborting
+kmoshie1@remote07:~/i471a/submit/lab1$ git push
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+To https://github.com/kmoshie1/i471a.git
+ [31m! [rejected]       [m lab1 -> lab1 (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/kmoshie1/i471a.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+kmoshie1@remote07:~/i471a/submit/lab1$ git pull
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 618 bytes | 154.00 KiB/s, done.
+From https://github.com/kmoshie1/i471a
+   98b9506..6701bdf  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+	submit/lab1/lab1.LOG
+Please commit your changes or stash them before you merge.
+Aborting
+kmoshie1@remote07:~/i471a/submit/lab1$ git push -u origion[K[Knll[Kshllsh -u origin lab1
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+To https://github.com/kmoshie1/i471a.git
+ [31m! [rejected]       [m lab1 -> lab1 (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/kmoshie1/i471a.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+kmoshie1@remote07:~/i471a/submit/lab1$ git push --help
+[?1049h[22;0;0t[?1h=GIT-PUSH(1)                                                             Git Manual                                                            GIT-PUSH(1)[m
+[m
+[1mNAME[0m[m
+       git-push - Update remote refs along with associated objects[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mpush[24m [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>][m
+                  [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v | --verbose][m
+                  [-u | --set-upstream] [-o <string> | --push-option=<string>][m
+                  [--[no-]signed|--signed=(true|false|if-asked)][m
+                  [--force-with-lease[=<refname>[:<expect>]]][m
+                  [--no-verify] [<repository> [<refspec>...]][m
+[m
+[1mDESCRIPTION[0m[m
+       Updates remote refs using local refs, while sending objects necessary to complete the given refs.[m
+[m
+       You can make interesting things happen to a repository every time you push into it, by setting up [4mhooks[24m there. See documentation for [1mgit-receive-[0m[m
+       [1mpack[0m(1).[m
+[m
+       When the command line does not specify where to push with the [1m<repository>[0m argument, [1mbranch.*.remote[0m configuration for the current branch is[m
+       consulted to determine where to push. If the configuration is missing, it defaults to [4morigin[24m.[m
+[m
+       When the command line does not specify what to push with [1m<refspec>...[0m arguments or [1m--all[0m, [1m--mirror[0m, [1m--tags[0m options, the command finds the default[m
+       [1m<refspec>[0m by consulting [1mremote.*.push[0m configuration, and if it is not found, honors [1mpush.default[0m configuration to decide what to push (See [1mgit-[0m[m
+       [1mconfig[0m(1) for the meaning of [1mpush.default[0m).[m
+[m
+       When neither the command-line nor the configuration specify what to push, the default behavior is used, which corresponds to the [1msimple[0m value for[m
+       [1mpush.default[0m: the current branch is pushed to the corresponding upstream branch, but as a safety measure, the push is aborted if the upstream[m
+       branch does not have the same name as the local one.[m
+[m
+[1mOPTIONS[0m[m
+       <repository>[m
+           The "remote" repository that is destination of a push operation. This parameter can be either a URL (see the section GIT URLS below) or the[m
+           name of a remote (see the section REMOTES below).[m
+[m
+       <refspec>...[m
+           Specify what destination ref to update with what source object. The format of a <refspec> parameter is an optional plus [1m+[0m, followed by the[m
+           source object <src>, followed by a colon [1m:[0m, followed by the destination ref <dst>.[m
+[m
+           The <src> is often the name of the branch you would want to push, but it can be any arbitrary "SHA-1 expression", such as [1mmaster~4[0m or [1mHEAD[0m[m
+           (see [1mgitrevisions[0m(7)).[m
+[m
+           The <dst> tells which ref on the remote side is updated with this push. Arbitrary expressions cannot be used here, an actual ref must be[m
+           named. If [1mgit[0m [1mpush[0m [1m[<repository>][0m without any [1m<refspec>[0m argument is set to update some ref at the destination with [1m<src>[0m with[m
+           [1mremote.<repository>.push[0m configuration variable, [1m:<dst>[0m part can be omitted—such a push will update a ref that [1m<src>[0m normally updates without[m
+           any [1m<refspec>[0m on the command line. Otherwise, missing [1m:<dst>[0m means to update the same ref as the [1m<src>[0m.[m
+[m
+           If <dst> doesn’t start with [1mrefs/[0m (e.g.  [1mrefs/heads/master[0m) we will try to infer where in [1mrefs/*[0m on the destination <repository> it belongs[m
+           based on the type of <src> being pushed and whether <dst> is ambiguous.[m
+[m
+           •   If <dst> unambiguously refers to a ref on the <repository> remote, then push to that ref.[m
+[m
+           •   If <src> resolves to a ref starting with refs/heads/ or refs/tags/, then prepend that to <dst>.[m
+[m
+           •   Other ambiguity resolutions might be added in the future, but for now any other cases will error out with an error indicating what we[m
+               tried, and depending on the [1madvice.pushUnqualifiedRefname[0m configuration (see [1mgit-config[0m(1)) suggest what refs/ namespace you may have[m
+               wanted to push to.[m
+[m
+           The object referenced by <src> is used to update the <dst> reference on the remote side. Whether this is allowed depends on where in [1mrefs/*[0m[m
+           the <dst> reference lives as described in detail below, in those sections "update" means any modifications except deletes, which as noted[m
+           after the next few sections are treated differently.[m
+[m
+           The [1mrefs/heads/*[0m namespace will only accept commit objects, and updates only if they can be fast-forwarded.[m
+[m
+           The [1mrefs/tags/*[0m namespace will accept any kind of object (as commits, trees and blobs can be tagged), and any updates to them will be[m
+           rejected.[m
+[m
+           It’s possible to push any type of object to
