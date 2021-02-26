@@ -56,11 +56,15 @@ function parse(text) {
 
   function expr() {
     let t = term();
-    while (check('+') || check('-')) {
+    while (check('+') || check('-') || check('**')) {
       const kind = lookahead.kind;
       match(kind);   
       const t1 = term();
-      t += (kind === '+') ? t1 : -t1;
+      if(kind === '**'){
+	t = t ** t1;
+      }else{
+        t += (kind === '+') ? t1 : -t1;
+      }
     }
     return t;
   }
@@ -99,6 +103,9 @@ function scan(text) {
     }
     else if ((m = text.match(/^\d+/))) {
       tokens.push(new Token('INT', m[0]));
+    }
+    else if ((m = text.match(/^\*\*/))){
+	tokens.push(new Token(m[0], m[0]));
     }
     else {
       m = text.match(/^./);
