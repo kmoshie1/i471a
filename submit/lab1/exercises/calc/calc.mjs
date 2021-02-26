@@ -56,11 +56,16 @@ function parse(text) {
 
   function expr() {
     let t = term();
-    while (check('+') || check('-')) {
+    while (check('+') || check('-') || check('**')) {
       const kind = lookahead.kind;
-      match(kind);   
+      match(kind);
       const t1 = term();
-      t += (kind === '+') ? t1 : -t1;
+      if (kind === '**'){
+        t = t ** t1
+      }else{
+        t += (kind === '+') ? t1 : -t1;
+      }
+
     }
     return t;
   }
