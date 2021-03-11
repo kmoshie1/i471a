@@ -1,0 +1,1 @@
+(define (quadratic-roots a b c) (if (= a 0) 'error (cond ((> (- (* b b) (* 4 (* a c))) 0) (list (/ (- (sqrt (- (* b b) (* (* 4 a) c))) b) (* 2 a)) (/ (- (- (sqrt (- (* b b) (* (* 4 a) c)))) b) (* 2 a)))) ((= (- (* b b) (* 4 (* a c))) 0) (list (/ (- (sqrt (- (* b b) (* (* 4 a) c))) b) (* 2 a)))) (else '()))))
