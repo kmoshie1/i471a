@@ -10,12 +10,14 @@
     (if (< (abs (/ (- (* guess guess) n) n)) .0001) 
        guess
 	 (my-sqrt n (/ (+ guess (/ n guess)) 2)))))
-	
+
 (define greater-than
   (lambda (ls (v 0))
+    (let ([list1  '()])
     (if (null? ls)
-	'()
-	(let ([list1 '()])
+	list1
 	(if (> (car ls) v) 
-	   ((append list1 '#t) greater-than((cdr ls) v))
-	   ((append list1 '#f) greater-than((cdr ls) v)))))))
+	   ((append list1 '(#t))(greater-than (cdr ls) v ))
+	   ((append list1 '(#f))(greater-than (cdr ls) v ))
+	)))))
+
