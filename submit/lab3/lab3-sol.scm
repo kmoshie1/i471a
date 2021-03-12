@@ -17,7 +17,7 @@
     (if (null? ls)
 	list1
 	(if (> (car ls) v) 
-	   ((append list1 '(#t))(greater-than (cdr ls) v ))
-	   ((append list1 '(#f))(greater-than (cdr ls) v ))
+	   ((append list1 '(#t)) (greater-than (cdr ls) v))
+	   ((append list1 '(#f)) (greater-than (cdr ls) v))
 	)))))
 
