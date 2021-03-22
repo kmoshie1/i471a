@@ -13,13 +13,13 @@
 (define (sum-lengths list)
   (if (null? list)
       0
-      (1)))  ;TODO
+      (+ (length (car list)) (sum-lengths (cdr list)))))  ;TODO
 
 ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x.  The computation should reflect the traditional
 ;;representation of the polynomial.
 (define (poly-eval coeffs x)
-  '())  ;TODO
+  +)  ;TODO
 
 ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x using Horner's method.
@@ -34,8 +34,15 @@
 ;;with fully parenthesized prefix binary operators 'add, 'sub, 'mul
 ;;and 'div.
 (define (arith-eval exp)
-  '())  ;TODO
-
+;;  (define (add exp1 exp2)
+;;    (+ exp1 exp2)
+;;    (define (sub exp1 exp2)
+;;      (- exp1 exp2)
+;;      (define (mul exp1 exp2)
+;;        (* exp1 exp2)
+;;        (define (div exp1 exp2)
+;;          (/ exp1 exp2))))))  ;TODO
+0)
 ;;Given a proper-list list of proper-lists, return sum of lengths of
 ;;all the contained lists.  Must be tail-recursive.
 (define (sum-lengths-tr list)
@@ -51,7 +58,7 @@
 (define (mul-list-2 list x)
   (if (null? list)
       '()
-      (map (lambda (n) (* n x)) list )))  ;TODO
+      (map (lambda (n) (* n x)) list )))
 
 ;;Given a proper-list list of proper-lists, return the sum of the
 ;;lengths of all the contained lists.  Cannot use recursion, can use
