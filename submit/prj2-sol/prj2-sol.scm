@@ -11,7 +11,9 @@
 ;;Given a proper-list list of proper-lists, return the sum of the
 ;;lengths of all the top-level contained lists.
 (define (sum-lengths list)
-  '())  ;TODO
+  (if (null? list)
+      0
+      (1)))  ;TODO
 
 ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x.  The computation should reflect the traditional
@@ -47,7 +49,9 @@
 ;;Return the list resulting by multiplying each element of `list` by `x`.
 ;;Cannot use recursion, can use one or more of `map`, `foldl`, or `foldr`.
 (define (mul-list-2 list x)
-  '())  ;TODO
+  (if (null? list)
+      '()
+      (map (lambda (n) (* n x)) list )))  ;TODO
 
 ;;Given a proper-list list of proper-lists, return the sum of the
 ;;lengths of all the contained lists.  Cannot use recursion, can use
