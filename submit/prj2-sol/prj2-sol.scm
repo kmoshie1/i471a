@@ -13,19 +13,21 @@
 (define (sum-lengths list)
   (if (null? list)
       0
-      (+ (length (car list)) (sum-lengths (cdr list)))))  ;TODO
+      (+ (length (car list)) (sum-lengths (cdr list)))))
 
 ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x.  The computation should reflect the traditional
 ;;representation of the polynomial.
 (define (poly-eval coeffs x)
-  +)  ;TODO
+  (if (null? coeffs)
+      0
+      ;;(+ (*(car (reverse coeffs)) (expt x (car (reverse coeffs)))) (poly-eval (cdr (reverse coeffs)) x))))
+      (+ (*(car (reverse coeffs)) (expt x (car (reverse coeffs)))) (poly-eval (cdr (reverse coeffs)) x))))
 
 ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x using Horner's method.
 (define (poly-eval-horner coeffs x)
-  '())  ;TODO
-
+  '())
 ;;Return count of occurrences equal? to x in exp
 (define (count-occurrences exp x)
   '())  ;TODO
@@ -34,21 +36,12 @@
 ;;with fully parenthesized prefix binary operators 'add, 'sub, 'mul
 ;;and 'div.
 (define (arith-eval exp)
-;;  (define (add exp1 exp2)
-;;    (+ exp1 exp2)
-;;    (define (sub exp1 exp2)
-;;      (- exp1 exp2)
-;;      (define (mul exp1 exp2)
-;;        (* exp1 exp2)
-;;        (define (div exp1 exp2)
-;;          (/ exp1 exp2))))))  ;TODO
-0)
+  '())
 ;;Given a proper-list list of proper-lists, return sum of lengths of
 ;;all the contained lists.  Must be tail-recursive.
 (define (sum-lengths-tr list)
-  '())  ;TODO
-
-;;Evaluate polynomial with list of coefficients coeffs (highest-order
+  '())
+  ;;Evaluate polynomial with list of coefficients coeffs (highest-order
 ;;first) at x.  Must be tail-recursive.
 (define (poly-eval-horner-tr coeffs x)
   '())  ;TODO
@@ -64,6 +57,8 @@
 ;;lengths of all the contained lists.  Cannot use recursion, can use
 ;;one or more of `map`, `foldl`, or `foldr`.
 (define (sum-lengths-2 list)
-  '())  ;TODO
+  (if (null? list)
+      0
+      (foldl(lambda (x y) (+ (length x) y)) 0 list)))
 
 		     
