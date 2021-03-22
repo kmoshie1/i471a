@@ -4,7 +4,9 @@
 
 ;;Return the list resulting by multiplying each element of `list` by `x`.
 (define (mul-list list x)
-  '())  ;TODO
+  (if (null? list)
+      '()
+      (cons (* x (car list)) (mul-list (cdr list) x)))) ;TODO
 
 ;;Given a proper-list list of proper-lists, return the sum of the
 ;;lengths of all the top-level contained lists.
