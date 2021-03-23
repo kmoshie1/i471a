@@ -25,7 +25,7 @@
     (and (eof? state) ast)))
 
 (define (expr state)
-  '())  ;TODO
+  state)  ;TODO
 
 ;;return a parse-result for a factor in state.
 (define (factor state)
