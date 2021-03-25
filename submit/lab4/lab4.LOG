@@ -340,4 +340,1513 @@ area(rectangle(W, H), Area):-
 area(square(W), Area):-
   Area is W*W.
 area(circle(R), Area):-
-  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                         
+  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H1,1[11CAll[1;1H[?25h[?1000l[?1002h[?25l[85;140H5,30[5;30H[?25h[?25l[85;130H^[[5;30H[85;130H  [5;30H[85;130H^[[5;30H[85;130H  [5;30H[?25h[?25l[85;130H:[5;30H[85;1H[K[85;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[85;1H[K[85;1H[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ clear
+[H[2J[3Jkmoshie1@remote-n25:~/i471a/submit/lab4$ si^?[K[K[Kclearvim lab4-sol.pro swipl[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- heas[7G[Kd9[8G[K(+ tai[13G[K[12G[K[11G[K[10G[9G[K_, tail(X, _[21G)[16G[22G, _[25G)[8G[26G =- [29G[28G[K head(a, tail(z, B[46G)[41G[47G, Y[50G)[33G[51G.
+X = z.
+
+?- cons(a, cons(b, cons(c, z[29G)[24G[30G[30G)[16G[31G[31G)[8G[32G.[32G[K = cons(a, cons(b, cons(c, z[60G)[55G[61G[61G)[47G[62G[62G)[39G[63G.[9G[P,[9G[1@_,, cons(b[17G[P,[17G[1@_,, cons(c[25G[P,[25G[1@_,
+[1mtrue.[0m
+
+?- ?- cons(_, cons(_, cons(_, z))) = cons(a, cons(b, cons(c, z))).z[28G[P)[28G[1@X)
+X = z.
+
+?- 
+[5]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ gi[K[Kexit
+There are stopped jobs.
+kmoshie1@remote-n25:~/i471a/submit/lab4$ git add .
+kmoshie1@remote-n25:~/i471a/submit/lab4$ git commit -m 'exer[Ker[K[Krcise 1 done'
+[lab4 b71dc15] exercise 1 done
+ 2 files changed, 343 insertions(+)
+ create mode 100644 submit/lab4/.lab4-sol.pro.swp
+ create mode 100644 submit/lab4/lab4.LOG
+kmoshie1@remote-n25:~/i471a/submit/lab4$ gio[Kt comm[K[K[K[Kpush
+Username for 'https://github.com': kmoshie1
+Password for 'https://kmoshie1@github.com': 
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 5.67 KiB | 2.83 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/kmoshie1/i471a.git
+   556278a..b71dc15  lab4 -> lab4
+kmoshie1@remote-n25:~/i471a/submit/lab4$ script -a lab4.LOG 
+Script started, file is lab4.LOG
+kmoshie1@remote-n25:~/i471a/submit/lab4$ sw[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainpush[Kcommit -am 'completing prj2'branch[K[5Pclearrm submit/prj2-sol/.prj2-sol.scm.swp[23Pgit status -srm submit/prj2-sol/.prj2-sol.scm.swp[23Pgit status -srm submit/prj2-sol/.prj2-sol.scm.swpclear[Kgit branchcommit -am 'completing prj2'push[Kcheckout mainmerge prj2 -m 'merged prj2'push[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainpush[Kcommit -am 'completing prj2'branch[Kcommit -am 'completing prj2'push[Kcheckout mainmerge prj2 -m 'merged prj2'push[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainmerge prj2 -m 'merged prj2'push[K[Kclear
+[H[2J[3Jkmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [a, b[9G][4G[10G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- \?- [K[a|b[8G][4G[9G.
+[31;1mERROR: Type error: `list' expected, found `b' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,b),_5130))
+ERROR:   [11] '$load_files'([a|b],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [a|[b[9G][b][10G][4G[11G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- [a|[b|c[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Type error: `list' expected, found `c' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,c),_8630))
+ERROR:   [11] '$load_files'([a,b|c],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [A|[B|C[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR:   [14] throw(error(instantiation_error,_10282))
+ERROR:   [11] '$load_files'([_10314,_10320|_10322],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- 
+[1]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshieScript started on 2021-03-25 13:46:14-04:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="157" LINES="85"]
+kmoshie1@remote-n25:~/i471a/submit/lab4$ sw[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainpush[Kcommit -am 'completing prj2'branch[K[5Pclearrm submit/prj2-sol/.prj2-sol.scm.swp[23Pgit status -srm submit/prj2-sol/.prj2-sol.scm.swp[23Pgit status -srm submit/prj2-sol/.prj2-sol.scm.swpclear[Kgit branchcommit -am 'completing prj2'push[Kcheckout mainmerge prj2 -m 'merged prj2'push[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainpush[Kcommit -am 'completing prj2'branch[Kcommit -am 'completing prj2'push[Kcheckout mainmerge prj2 -m 'merged prj2'push[K[Kgit pushmerge prj2 -m 'merged prj2'[14Pcheckout mainmerge prj2 -m 'merged prj2'push[K[Kclear
+[H[2J[3Jkmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [a, b[9G][4G[10G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- \?- [K[a|b[8G][4G[9G.
+[31;1mERROR: Type error: `list' expected, found `b' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,b),_5130))
+ERROR:   [11] '$load_files'([a|b],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [a|[b[9G][b][10G][4G[11G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- [a|[b|c[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Type error: `list' expected, found `c' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,c),_8630))
+ERROR:   [11] '$load_files'([a,b|c],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [A|[B|C[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR:   [14] throw(error(instantiation_error,_10282))
+ERROR:   [11] '$load_files'([_10314,_10320|_10322],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- 
+[1]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 10:01:38 2021
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 40L, 812C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                               1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 10:01:38 2021
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 40L, 812C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                                                                                                                        [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,30[10CAll[5;30H[?25h[?1000l[?1002h[?25l[85;140H40,0-1[40;1H[?25h[?25l[85;140H1,1   [1;1H[?25h[?25l[85;130Ha[1;1H[85;130H [1;2H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H1,2[11CAll[1;2H[?25h[?25l[85;142H1[1;1H[?25h[?25l[2;84r[2;1H[L[1;85r[1;1H[K[2;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H2,1[11CAll[2;1H[?25h[?25l[3;84r[3;1H[L[1;85r[2;1H[K[3;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H3,1[11CAll[3;1H[?25h[?25l[4;84r[4;1H[L[1;85r[3;1H[K[4;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H4,1[11CAll[4;1H[?25h[?25l[5;84r[5;1H[L[1;85r[4;1H[K[5;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H5,1[11CAll[5;1H[?25h[?25l[6;84r[6;1H[L[1;85r[5;1H[K[6;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H6,1[11CAll[6;1H[?25h[?25l[7;84r[7;1H[L[1;85r[6;1H[K[7;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H7,1[11CAll[7;1H[?25h[?25l[85;142H2[7;2H[?25h[?25l[85;140H6,1[6;1H[?25h[?25l[85;140H5[5;1H[?25h[?25l[85;140H4[4;1H[?25h[?25l[85;140H3[3;1H[?25h[?25l[85;140H2[2;1H[?25h[?25l%[85;142H2[2;2H[?25h[?25lp[85;142H3[2;3H[?25h[?25lr[85;142H4[2;4H[?25h[?25lo[85;142H5[2;5H[?25h[?25lp[85;142H6[2;6H[?25h[?25le[85;142H7[2;7H[?25h[?25lr[85;142H8[2;8H[?25h[?25l[85;142H9[2;9H[?25h[?25ll[85;142H10[2;10H[?25h[?25li[85;143H1[2;11H[?25h[?25ls[85;143H2[2;12H[?25h[?25lt[85;143H3[2;13H[?25h[?25le[85;143H4[2;14H[?25h[?25lr[85;143H5[2;15H[?25h[?25ls[85;143H6[2;16H[?25h[?25l[85;143H7[2;17H[?25h[?25la[85;143H8[2;18H[?25h[?25lr[85;143H9[2;19H[?25h[?25le[85;142H20[2;20H[?25h[?25l[85;143H1[2;21H[?25h[?25l[85;140H3,1 [3;1H[?25h[?25l[85;4H[1m(insert)- VISUAL --[m[85;140H[K[85;130H1[3;1H[85;140H3,0-1[9CAll[3;1H[?25h[?25l[?25h[?25l[85;130H [1;1H[85;4H[1mINSERTt --[m[85;13H[K[85;140H1,1[11CAll[1;1H[?25h[?25l[85;4H[1m(insert)- VISUAL --[m[85;140H[K[85;130H2[2;21H[85;140H2,21[10CAll[1;1H[7m 
+%proper listers are [?25h[?25l[?25h[?25l[?25h[?25l[m[85;130H [2;21H[85;4H[1mINSERTt --[m[85;13H[K[85;140H2,21[10CAll[1;1H[K[2;1H%proper listers are [?25h[?25l[a, b][46m[[ma, b[46m][m[85;143H7[2;27H[?25h[?25la[2;21H[a, b][85;143H8[2;28H[?25h[?25l[2;27H[K[2;21H[46m[[ma, b[46m][m[85;143H7[2;27H[?25h[?25l,[2;21H[a, b][85;143H8[2;28H[?25h[?25l[85;143H9[2;29H[?25h[?25la[85;142H30[2;30H[?25h[?25ln[85;143H1[2;31H[?25h[?25ld[85;143H2[2;32H[?25h[?25l[33m and [m[85;143H3[2;33H[?25h[?25l[85;140H3,1 [3;1H[?25h[?25l[85;140H2,33[2;33H[?25h[?25l[a|[b]][2;33H[46m[[ma|[b][46m][m[85;142H40[2;40H[?25h[?25l[2;33H[a|[b]][85;142H2 [2;2H[?25h[?25l[31C[46m[[ma|[b][46m][m[85;142H40[2;40H[?25h[?25l[2;33H[a|[b]][85;142H1 [2;1H[?25h[?25l[85;142H2[2;2H[?25h[?25laproper listers are [a, b],[33m and [m[a|[b]][85;142H3[2;3H[?25h[?25lproper listers are [a, b],[33m and [m[a|[b][2;40H[K[85;142H2[2;2H[?25h[?25l proper listers are [a, b],[33m and [m[a|[b]][85;142H3[2;3H[?25h[?25l[85;140H3,1[3;1H[?25h[?25l[85;140H4[4;1H[?25h[85;1H[K[4;1H[?25l[85;130H^[[4;1H[85;130H  [4;1H[85;140H4,0-1[9CAll[4;1H[?25h[?25l[85;130H:[4;1H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 46L, 858C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25                 [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,30[10CAll[5;30H[?25h[?1000l[?1002h[?25l[85;140H40,0-1[40;1H[?25h[?25l[85;140H1,1   [1;1H[?25h[?25l[85;130Ha[1;1H[85;130H [1;2H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H1,2[11CAll[1;2H[?25h[?25l[85;142H1[1;1H[?25h[?25l[2;84r[2;1H[L[1;85r[1;1H[K[2;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H2,1[11CAll[2;1H[?25h[?25l[3;84r[3;1H[L[1;85r[2;1H[K[3;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H3,1[11CAll[3;1H[?25h[?25l[4;84r[4;1H[L[1;85r[3;1H[K[4;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H4,1[11CAll[4;1H[?25h[?25l[5;84r[5;1H[L[1;85r[4;1H[K[5;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H5,1[11CAll[5;1H[?25h[?25l[6;84r[6;1H[L[1;85r[5;1H[K[6;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H6,1[11CAll[6;1H[?25h[?25l[7;84r[7;1H[L[1;85r[6;1H[K[7;1Hquadratic_roots(A, B, C, Z) :-[85;140H[K[85;140H7,1[11CAll[7;1H[?25h[?25l[85;142H2[7;2H[?25h[?25l[85;140H6,1[6;1H[?25h[?25l[85;140H5[5;1H[?25h[?25l[85;140H4[4;1H[?25h[?25l[85;140H3[3;1H[?25h[?25l[85;140H2[2;1H[?25h[?25l%[85;142H2[2;2H[?25h[?25lp[85;142H3[2;3H[?25h[?25lr[85;142H4[2;4H[?25h[?25lo[85;142H5[2;5H[?25h[?25lp[85;142H6[2;6H[?25h[?25le[85;142H7[2;7H[?25h[?25lr[85;142H8[2;8H[?25h[?25l[85;142H9[2;9H[?25h[?25ll[85;142H10[2;10H[?25h[?25li[85;143H1[2;11H[?25h[?25ls[85;143H2[2;12H[?25h[?25lt[85;143H3[2;13H[?25h[?25le[85;143H4[2;14H[?25h[?25lr[85;143H5[2;15H[?25h[?25ls[85;143H6[2;16H[?25h[?25l[85;143H7[2;17H[?25h[?25la[85;143H8[2;18H[?25h[?25lr[85;143H9[2;19H[?25h[?25le[85;142H20[2;20H[?25h[?25l[85;143H1[2;21H[?25h[?25l[85;140H3,1 [3;1H[?25h[?25l[85;4H[1m(insert)- VISUAL --[m[85;140H[K[85;130H1[3;1H[85;140H3,0-1[9CAll[3;1H[?25h[?25l[?25h[?25l[85;130H [1;1H[85;4H[1mINSERTt --[m[85;13H[K[85;140H1,1[11CAll[1;1H[?25h[?25l[85;4H[1m(insert)- VISUAL --[m[85;140H[K[85;130H2[2;21H[85;140H2,21[10CAll[1;1H[7m 
+%proper listers are [?25h[?25l[?25h[?25l[?25h[?25l[m[85;130H [2;21H[85;4H[1mINSERTt --[m[85;13H[K[85;140H2,21[10CAll[1;1H[K[2;1H%proper listers are [?25h[?25l[a, b][46m[[ma, b[46m][m[85;143H7[2;27H[?25h[?25la[2;21H[a, b][85;143H8[2;28H[?25h[?25l[2;27H[K[2;21H[46m[[ma, b[46m][m[85;143H7[2;27H[?25h[?25l,[2;21H[a, b][85;143H8[2;28H[?25h[?25l[85;143H9[2;29H[?25h[?25la[85;142H30[2;30H[?25h[?25ln[85;143H1[2;31H[?25h[?25ld[85;143H2[2;32H[?25h[?25l[33m and [m[85;143H3[2;33H[?25h[?25l[85;140H3,1 [3;1H[?25h[?25l[85;140H2,33[2;33H[?25h[?25l[a|[b]][2;33H[46m[[ma|[b][46m][m[85;142H40[2;40H[?25h[?25l[2;33H[a|[b]][85;142H2 [2;2H[?25h[?25l[31C[46m[[ma|[b][46m][m[85;142H40[2;40H[?25h[?25l[2;33H[a|[b]][85;142H1 [2;1H[?25h[?25l[85;142H2[2;2H[?25h[?25laproper listers are [a, b],[33m and [m[a|[b]][85;142H3[2;3H[?25h[?25lproper listers are [a, b],[33m and [m[a|[b][2;40H[K[85;142H2[2;2H[?25h[?25l proper listers are [a, b],[33m and [m[a|[b]][85;142H3[2;3H[?25h[?25l[85;140H3,1[3;1H[?25h[?25l[85;140H4[4;1H[?25h[85;1H[K[4;1H[?25l[85;130H^[[4;1H[85;130H  [4;1H[85;140H4,0-1[9CAll[4;1H[?25h[?25l[85;130H:[4;1H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 46L, 858C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ swiplz[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [1, 2, 3, 4[15G][4G[16G.
+[31;1mERROR: source_sink `'1'' does not exist
+[0m[31;1mERROR: source_sink `'2'' does not exist
+[0m[31;1mERROR: source_sink `'3'' does not exist
+[0m[31;1mERROR: source_sink `'4'' does not exist
+[0m[1mtrue.[0m
+
+?- cddr [1, 2, 3, 4[20G][9G[21G.
+[31;1mERROR: Syntax error: Operator expected
+ERROR: cddr
+ERROR: ** here **
+ERROR:  [1, 2, 3, 4] . 
+[0m?- 
+[2]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4.LOG [K[K[K[K[K-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                        h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ swiplz[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [1, 2, 3, 4[15G][4G[16G.
+[31;1mERROR: source_sink `'1'' does not exist
+[0m[31;1mERROR: source_sink `'2'' does not exist
+[0m[31;1mERROR: source_sink `'3'' does not exist
+[0m[31;1mERROR: source_sink `'4'' does not exist
+[0m[1mtrue.[0m
+
+?- cddr [1, 2, 3, 4[20G][9G[21G.
+[31;1mERROR: Syntax error: Operator expected
+ERROR: cddr
+ERROR: ** here **
+ERROR:  [1, 2, 3, 4] . 
+[0m?- 
+[2]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4.LOG [K[K[K[K[K-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;130H^Z[4;1H[85;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[23;2t[23;1t[22;2t[22;1t[?1002l[?2004l
+[3]+  Stopped                 vim lab4-sol.pro
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                                [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;130H^Z[4;1H[85;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[23;2t[23;1t[22;2t[22;1t[?1002l[?2004l
+[3]+  Stopped                 vim lab4-sol.pro
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;130H^[[4;1H[85;130H  [4;1H[85;130H^[[4;1H[85;130H  [4;1H[?25h[?25l[85;130H:[4;1H[85;1H[K[85;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[85;1H[K[85;1H[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(D[74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;130H^[[4;1H[85;130H  [4;1H[85;130H^[[4;1H[85;130H  [4;1H[?25h[?25l[85;130H:[4;1H[85;1H[K[85;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[85;1H[K[85;1H[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                           iscr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;141H4,0-1[44;1H[?25h[?25l[85;130H2[43;18H
+[7m [m[85;1H[1m-- VISUAL --[m[85;13H[K[85;130H2[43;18H[85;140H43,18[9CAll[43;18H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[85;130H^[[43;18H[85;130H2 [43;18H[85;131H^[[43;18H[85;130H   [43;17H[44;1H[K[85;1H[K[85;140H43,17[9CAll[43;17H[?25h[?25l[85;130H:[43;17H[85;130H[K[85;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[85;1H[K[85;1H[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ racket
+Welcome to Racket v7.9 [bc].
+> ca> c[Kdar [1[9G[K1,[10G[K[9G[K[1,2], 3, 4]
+#<procedure:cdar>
+; readline-input:1:8: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> cdar ([8G[K[7G[6G[K> cd[K> c[K> [K(cdar ((1,21[14G[K) ^?[16G[K[15G, 3 ,[19G[K[18G, 4)
+  )
+; readline-input:2:9: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> 
+[4]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visi                                                 [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H4,0-1[9CAll[4;1H[?25h[?1000l[?1002h[?25l[85;141H4,0-1[44;1H[?25h[?25l[85;130H2[43;18H
+[7m [m[85;1H[1m-- VISUAL --[m[85;13H[K[85;130H2[43;18H[85;140H43,18[9CAll[43;18H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[85;130H^[[43;18H[85;130H2 [43;18H[85;131H^[[43;18H[85;130H   [43;17H[44;1H[K[85;1H[K[85;140H43,17[9CAll[43;17H[?25h[?25l[85;130H:[43;17H[85;130H[K[85;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[85;1H[K[85;1H[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ racket
+Welcome to Racket v7.9 [bc].
+> ca> c[Kdar [1[9G[K1,[10G[K[9G[K[1,2], 3, 4]
+#<procedure:cdar>
+; readline-input:1:8: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> cdar ([8G[K[7G[6G[K> cd[K> c[K> [K(cdar ((1,21[14G[K) ^?[16G[K[15G, 3 ,[19G[K[18G, 4)
+  )
+; readline-input:2:9: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> 
+[4]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- 
+[5]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ r[Kracket
+Welcome to Racket v7.9 [bc].
+> (cdr (car ([1,2[17G[K[16G[K[15G[K[2[16G[K1,2],3,4])))
+; readline-input:1:14: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> > (cdr (car ([[1,2],3,4])))[27G[K
+  )
+; readline-input:2:14: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> 
+[6]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket[1Pswipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- 
+[7]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplracket
+Welcome to Racket v7.9 [bc].
+> > (poly-eval-horner '(5 4 3 2 1) 1)> [K(cdr (catr[12G[K[11G[Kr ('[14G[K[13G[K'(([15G[K[1,2],2[21G[K3k,[23G[K[22G[K,4])))
+; readline-input:1:21: read-syntax: expected `)` to close preceding `(`, found
+;   instead `]` [,bt for context]
+; readline-input:1:22: read-syntax: unexpected `)` [,bt for context]
+; readline-input:1:23: read-syntax: unexpected `)` [,bt for context]
+; readline-input:1:24: read-syntax: unexpected `)` [,bt for context]
+> > (cdr (car '([1,2],3,4])))> (poly-eval-horner '(5 4 3 2 1) 1)> (cdr (car '([1,2],3,4])))[K([16G[1@[1
+'(,3 ,4)
+> > (cdr (car '([[1,2],3,4])))[11G[P [10G[P [9G[P [8G[P [8G[P'[6G[P [6G[1@a [7G[1@r 
+'(,3 ,4)
+; readline-input:3:21: read-syntax: unexpected `)` [,bt for context]
+> 
+[8]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket
+Welcome to Racket v7.9 [bc].
+> > (poly-eval-horner '(5 4 3 2 1) 1)> [K(d> ([Kcdart[8G[K ([9G[K'(([11G[K[[[12G[K[11G[K(1,2),3,[18G[K[17G[K[16G[K 3 4)))
+'(,2)
+; readline-input:1:19: read-syntax: unexpected `)` [,bt for context]
+> > (cdar '((1,2) 3 4))))[22G[K(1,[13G[P2[13G[1@ 2
+'(2)
+> 
+[9]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket[1Pswipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- ca?- c[Kddr ([9G[K[8G([8G[K(X, [R,S|X[18G][12G[19G[19G)[8G[20G.
+[31;1mERROR: Undefined procedure: cddr/2 (DWIM could not correct goal)
+[0m?- vim [7G[6G[K?- v[K?- [K
+[10]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a,t http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- 
+[5]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ r[Kracket
+Welcome to Racket v7.9 [bc].
+> (cdr (car ([1,2[17G[K[16G[K[15G[K[2[16G[K1,2],3,4])))
+; readline-input:1:14: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> > (cdr (car ([[1,2],3,4])))[27G[K
+  )
+; readline-input:2:14: unquote: not in quasiquote
+;   in: (unquote 2)
+; [,bt for context]
+> 
+[6]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket[1Pswipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- 
+[7]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplracket
+Welcome to Racket v7.9 [bc].
+> > (poly-eval-horner '(5 4 3 2 1) 1)> [K(cdr (catr[12G[K[11G[Kr ('[14G[K[13G[K'(([15G[K[1,2],2[21G[K3k,[23G[K[22G[K,4])))
+; readline-input:1:21: read-syntax: expected `)` to close preceding `(`, found
+;   instead `]` [,bt for context]
+; readline-input:1:22: read-syntax: unexpected `)` [,bt for context]
+; readline-input:1:23: read-syntax: unexpected `)` [,bt for context]
+; readline-input:1:24: read-syntax: unexpected `)` [,bt for context]
+> > (cdr (car '([1,2],3,4])))> (poly-eval-horner '(5 4 3 2 1) 1)> (cdr (car '([1,2],3,4])))[K([16G[1@[1
+'(,3 ,4)
+> > (cdr (car '([[1,2],3,4])))[11G[P [10G[P [9G[P [8G[P [8G[P'[6G[P [6G[1@a [7G[1@r 
+'(,3 ,4)
+; readline-input:3:21: read-syntax: unexpected `)` [,bt for context]
+> 
+[8]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket
+Welcome to Racket v7.9 [bc].
+> > (poly-eval-horner '(5 4 3 2 1) 1)> [K(d> ([Kcdart[8G[K ([9G[K'(([11G[K[[[12G[K[11G[K(1,2),3,[18G[K[17G[K[16G[K 3 4)))
+'(,2)
+; readline-input:1:19: read-syntax: unexpected `)` [,bt for context]
+> > (cdar '((1,2) 3 4))))[22G[K(1,[13G[P2[13G[1@ 2
+'(2)
+> 
+[9]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket[1Pswipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- ca?- c[Kddr ([9G[K[8G([8G[K(X, [R,S|X[18G][12G[19G[19G)[8G[20G.
+[31;1mERROR: Undefined procedure: cddr/2 (DWIM could not correct goal)
+[0m?- vim [7G[6G[K?- v[K?- [K
+[10]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 13:50:17 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 46L, 858C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                b],[33m and [m[a|[b]][7;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[47;1H[1m[34m~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H43,17[9CAll[43;17H[?25h[?1000l[?1002h[?25l[85;140H2,7  [2;7H[?25h[?25l[85;140H3,0-1[3;1H[?25h[?25l[85;130Hc[3;1H[?25h[?25l[85;130H [3;1H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H3,1[11CAll[3;1H[?25h[?25la[85;142H2[3;2H[?25h[?25l[3;1H[K[85;142H1[3;1H[?25h[?25lc[85;142H2[3;2H[?25h[?25l[32mcd[m[85;142H3[3;3H[?25h[?25lcdd[85;142H4[3;4H[?25h[?25lr[85;142H5[3;5H[?25h[?25l([85;142H6[3;6H[?25h[?25lX[85;142H7[3;7H[?25h[?25l,[85;142H8[3;8H[?25h[?25l[85;142H9[3;9H[?25h[?25l[[85;142H10[3;10H[?25h[?25lR[85;143H1[3;11H[?25h[?25l,[85;143H2[3;12H[?25h[?25lS[85;143H3[3;13H[?25h[?25l|[85;143H4[3;14H[?25h[?25lX[85;143H5[3;15H[?25h[?25l][3;9H[46m[[mR,S|X[46m][m[85;143H6[3;16H[?25h[?25l)cddr[46m([mX, [R,S|X][46m)[m[85;143H7[3;17H[?25h[?25l.cddr([10C)[85;143H8[3;18H[?25h[?25l[4;84r[4;1H[L[1;85r[85;140H[K[85;140H4,1[11CAll[4;1H[?25h[?25lc[85;142H2[4;2                                                             [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H43,17[9CAll[43;17H[?25h[?1000l[?1002h[?25l[85;140H2,7  [2;7H[?25h[?25l[85;140H3,0-1[3;1H[?25h[?25l[85;130Hc[3;1H[?25h[?25l[85;130H [3;1H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H3,1[11CAll[3;1H[?25h[?25la[85;142H2[3;2H[?25h[?25l[3;1H[K[85;142H1[3;1H[?25h[?25lc[85;142H2[3;2H[?25h[?25l[32mcd[m[85;142H3[3;3H[?25h[?25lcdd[85;142H4[3;4H[?25h[?25lr[85;142H5[3;5H[?25h[?25l([85;142H6[3;6H[?25h[?25lX[85;142H7[3;7H[?25h[?25l,[85;142H8[3;8H[?25h[?25l[85;142H9[3;9H[?25h[?25l[[85;142H10[3;10H[?25h[?25lR[85;143H1[3;11H[?25h[?25l,[85;143H2[3;12H[?25h[?25lS[85;143H3[3;13H[?25h[?25l|[85;143H4[3;14H[?25h[?25lX[85;143H5[3;15H[?25h[?25l][3;9H[46m[[mR,S|X[46m][m[85;143H6[3;16H[?25h[?25l)cddr[46m([mX, [R,S|X][46m)[m[85;143H7[3;17H[?25h[?25l.cddr([10C)[85;143H8[3;18H[?25h[?25l[4;84r[4;1H[L[1;85r[85;140H[K[85;140H4,1[11CAll[4;1H[?25h[?25lc[85;142H2[4;2H[?25h[?25la[85;142H3[4;3H[?25h[?25ld[85;142H4[4;4H[?25h[?25ld[85;142H5[4;5H[?25h[?25lr[85;142H6[4;6H[?25h[?25l([85;142H7[4;7H[?25h[?25lX[85;142H8[4;8H[?25h[?25l,[85;142H9[4;9H[?25h[?25l[85;142H10[4;10H[?25h[?25l[[85;143H1[4;11H[?25h[?25lR[85;143H2[4;12H[?25h[?25l[4;11H[K[85;143H1[4;11H[?25h[?25lA[85;143H2[4;12H[?25h[?25l,[85;143H3[4;13H[?25h[?25lB[85;143H4[4;14H[?25h[?25l,[85;143H5[4;15H[?25h[?25lX[85;143H6[4;16H[?25h[?25l,[85;143H7[4;17H[?25h[?25lD[85;143H8[4;18H[?25h[?25l)caddr[46m([11C)[m[85;143H9[4;19H[?25h[?25l[4;18H[K[4;6H([85;143H8[4;18H[?25h[?25l][4;10H[46m[[7C][m[85;143H9[4;19H[?25h[?25l)caddr[46m([mX, [[7C][46m)[m[85;142H20[4;20H[?25h[?25l.caddr([12C)[85;143H1[4;21H[?25h[?25l[5;84r[5;1H[L[1;85r[85;140H[K[85;140H5,1[11CAll[5;1H[?25h[?25lc[85;142H2[5;2H[?25h[?25l[32mcd[m[85;142H3[5;3H[?25h[?25lcda[85;142H4[5;4H[?25h[?25lr[85;142H5[5;5H[?25h[?25l([85;142H6[5;6H[?25h[?25lX[85;142H7[5;7H[?25h[?25l,[85;142H8[5;8H[?25h[?25l[85;142H9[5;9H[?25h[?25l[[85;142H10[5;10H[?25h[?25l[[85;143H1[5;11H[?25h[?25lA[85;143H2[5;12H[?25h[?25lA[85;143H3[5;13H[?25h[?25l[5;12H[K[85;143H2[5;12H[?25h[?25l|[85;143H3[5;13H[?25h[?25lB[85;143H4[5;14H[?25h[?25l}[85;143H5[5;15H[?25h[?25l[85;4H[1mREPLACE --[m[85;140H[K[85;140H5,15[10CAll[5;15H[?25h[?25l][46m[[mA|B}[46m][m[85;143H6[5;16H[?25h[?25l[85;4H[1mINSERTE -[m[85;13H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[85;4H[1mREPLACE --[m[85;140H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[A|B}][85;143H [5;1H[?25h[?25l[85;140H6[6;1H[?25h[?25l[5;10H[46m[[mA|B}[46m][m[85;140H5,16[5;16H[?25h[?25la[5;10H[A|B}][85;143H7[5;17H[?25h[?25l[5;16H[K[5;10H[46m[[mA|B}[46m][m[85;143H6[5;16H[?25h[85;1H[K[5;15H[?25l[85;130H^[[5;15H[85;130H  [5;16H[85;140H5,15[10CAll[5;15H[?25h[?25l[85;130HA[5;15H[85;130H [5;16H[85;1H[1m-- INSERT --[m[85;140H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[5;15H[K[5;10H[[85;143H5[5;15H[?25h[?25l[5;14H[K[85;143H4[5;14H[?25h[?25l][46m[[mA|B[46m][m[85;143H5[5;15H[?25h[?25l,[A|B][85;143H6[5;16H[?25h[?25lb[85;143H7[5;17H[?25h[?25l[5;16H[K[85;143H6[5;16H[?25h[?25lB[85;143H7[5;17H[?25h[?25l,[85;143H8[5;18H[?25h[?25lC[85;143H9[5;19H[?25h[?25l][5;9H[46m[[9C][m[85;142H20[5;20H[?25h[?25l)cdar[46m([mX, [[9C][46m)[m[85;143H1[5;21H[?25h[?25l.cdar([14C)[85;143H2[5;22H[?25h[85;1H[K[5;21H[?25l[85;130H^[[5;21H[85;130H  [5;22H[85;140H5,21[10CAll[5;21H[?25h[?25l[85;130H:[5;21H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 48L, 918C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [?- ['lab4-sol.pro[18G'[5G[19G[19G][4G[20G.
+[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:3:
+	Singleton variables: [R,S]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:4:
+	Singleton variables: [A,B,D]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:5:
+	Singleton variables: [X,A,C]
+[0m[1mtrue.[0m
+
+?- cdar(X,[[1,2[6G[Pr[6G[1@drr(X,[[1,2[15G[K[14G[K[13G[K[12G[K1,2,3,4[19G][11G[20G[20G)[8G[21G.
+X = [3, 4].
+
+?- ?- cddr(X,[1,2,3,4]).d[6G[Pr?- c[Pr?- c[1@ar[6G[1@dr[7G[1@dH[?25h[?25la[85;142H3[4;3H[?25h[?25ld[85;142H4[4;4H[?25h[?25ld[85;142H5[4;5H[?25h[?25lr[85;142H6[4;6H[?25h[?25l([85;142H7[4;7H[?25h[?25lX[85;142H8[4;8H[?25h[?25l,[85;142H9[4;9H[?25h[?25l[85;142H10[4;10H[?25h[?25l[[85;143H1[4;11H[?25h[?25lR[85;143H2[4;12H[?25h[?25l[4;11H[K[85;143H1[4;11H[?25h[?25lA[85;143H2[4;12H[?25h[?25l,[85;143H3[4;13H[?25h[?25lB[85;143H4[4;14H[?25h[?25l,[85;143H5[4;15H[?25h[?25lX[85;143H6[4;16H[?25h[?25l,[85;143H7[4;17H[?25h[?25lD[85;143H8[4;18H[?25h[?25l)caddr[46m([11C)[m[85;143H9[4;19H[?25h[?25l[4;18H[K[4;6H([85;143H8[4;18H[?25h[?25l][4;10H[46m[[7C][m[85;143H9[4;19H[?25h[?25l)caddr[46m([mX, [[7C][46m)[m[85;142H20[4;20H[?25h[?25l.caddr([12C)[85;143H1[4;21H[?25h[?25l[5;84r[5;1H[L[1;85r[85;140H[K[85;140H5,1[11CAll[5;1H[?25h[?25lc[85;142H2[5;2H[?25h[?25l[32mcd[m[85;142H3[5;3H[?25h[?25lcda[85;142H4[5;4H[?25h[?25lr[85;142H5[5;5H[?25h[?25l([85;142H6[5;6H[?25h[?25lX[85;142H7[5;7H[?25h[?25l,[85;142H8[5;8H[?25h[?25l[85;142H9[5;9H[?25h[?25l[[85;142H10[5;10H[?25h[?25l[[85;143H1[5;11H[?25h[?25lA[85;143H2[5;12H[?25h[?25lA[85;143H3[5;13H[?25h[?25l[5;12H[K[85;143H2[5;12H[?25h[?25l|[85;143H3[5;13H[?25h[?25lB[85;143H4[5;14H[?25h[?25l}[85;143H5[5;15H[?25h[?25l[85;4H[1mREPLACE --[m[85;140H[K[85;140H5,15[10CAll[5;15H[?25h[?25l][46m[[mA|B}[46m][m[85;143H6[5;16H[?25h[?25l[85;4H[1mINSERTE -[m[85;13H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[85;4H[1mREPLACE --[m[85;140H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[A|B}][85;143H [5;1H[?25h[?25l[85;140H6[6;1H[?25h[?25l[5;10H[46m[[mA|B}[46m][m[85;140H5,16[5;16H[?25h[?25la[5;10H[A|B}][85;143H7[5;17H[?25h[?25l[5;16H[K[5;10H[46m[[mA|B}[46m][m[85;143H6[5;16H[?25h[85;1H[K[5;15H[?25l[85;130H^[[5;15H[85;130H  [5;16H[85;140H5,15[10CAll[5;15H[?25h[?25l[85;130HA[5;15H[85;130H [5;16H[85;1H[1m-- INSERT --[m[85;140H[K[85;140H5,16[10CAll[5;16H[?25h[?25l[5;15H[K[5;10H[[85;143H5[5;15H[?25h[?25l[5;14H[K[85;143H4[5;14H[?25h[?25l][46m[[mA|B[46m][m[85;143H5[5;15H[?25h[?25l,[A|B][85;143H6[5;16H[?25h[?25lb[85;143H7[5;17H[?25h[?25l[5;16H[K[85;143H6[5;16H[?25h[?25lB[85;143H7[5;17H[?25h[?25l,[85;143H8[5;18H[?25h[?25lC[85;143H9[5;19H[?25h[?25l][5;9H[46m[[9C][m[85;142H20[5;20H[?25h[?25l)cdar[46m([mX, [[9C][46m)[m[85;143H1[5;21H[?25h[?25l.cdar([14C)[85;143H2[5;22H[?25h[85;1H[K[5;21H[?25l[85;130H^[[5;21H[85;130H  [5;22H[85;140H5,21[10CAll[5;21H[?25h[?25l[85;130H:[5;21H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 48L, 918C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [?- ['lab4-sol.pro[18G'[5G[19G[19G][4G[20G.
+[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:3:
+	Singleton variables: [R,S]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:4:
+	Singleton variables: [A,B,D]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:5:
+	Singleton variables: [X,A,C]
+[0m[1mtrue.[0m
+
+?- cdar(X,[[1,2[6G[Pr[6G[1@drr(X,[[1,2[15G[K[14G[K[13G[K[12G[K1,2,3,4[19G][11G[20G[20G)[8G[21G.
+X = [3, 4].
+
+?- ?- cddr(X,[1,2,3,4]).d[6G[Pr?- c[Pr?- c[1@ar[6G[1@dr[7G[1@dr[9G[1@r(r(X,[1,2,3,4]).[9G[P((X,[1,2,3,4]).
+X = 3.
+
+?- ?- caddr(X,[1,2,3,4]).d[7G[Pr[6G[Pr?- c[Pr?- c[1@dr[6G[1@arr(X,[[13G[1@1,[13G[P,[12G[1@[11,2[16G[1@],[12G[17G
+[1;31mfalse.[0m
+
+?- ?- cdar(X,[[1,2],3,4]).[23Ga.[23G.[K
+[1;31mfalse.[0m
+
+?- 
+[11]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:26:04 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|B],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                        r[9G[1@r(r(X,[1,2,3,4]).[9G[P((X,[1,2,3,4]).
+X = 3.
+
+?- ?- caddr(X,[1,2,3,4]).d[7G[Pr[6G[Pr?- c[Pr?- c[1@dr[6G[1@arr(X,[[13G[1@1,[13G[P,[12G[1@[11,2[16G[1@],[12G[17G
+[1;31mfalse.[0m
+
+?- ?- cdar(X,[[1,2],3,4]).[23Ga.[23G.[K
+[1;31mfalse.[0m
+
+?- 
+[11]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:26:04 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|B],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                                                                                                                        [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,21[10CAll[5;21H[?25h[?1000l[?1002h[?25l[85;130H~@k[5;21H[85;130H   [5;20Hcdar[46m([14C)[m[85;143H0[5;20H[?25h[?25l[85;130H~@k[5;20H[85;130H   [5;21Hcdar([14C)[85;143H1[5;21H[?25h[?25l[85;130H~@k[5;21H[85;130H   [5;20Hcdar[46m([14C)[m[85;143H0[5;20H[?25h[?25l[85;130H~@k[5;20H[85;130H   [5;19Hcdar(X, [46m[[9C][m)[85;142H19[5;19H[?25h[?25l[85;130H~@k[5;19H[85;130H   [5;18H[5;9H[[9C][85;143H8[5;18H[?25h[?25l[85;130H~@k[5;18H[85;130H   [5;17H[85;143H7[5;17H[?25h[?25l[85;130H~@k[5;17H[85;130H   [5;16H[85;143H6[5;16H[?25h[?25l[85;130H~@k[5;16H[85;130H   [5;15H[85;143H5[5;15H[?25h[?25l[85;130H~@k[5;15H[85;130H   [5;14H[46m[[mA|B[46m][m[85;143H4[5;14H[?25h[?25l[85;130Ha[5;14H[85;130H [5;15H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H5,15[10CAll[5;15H[?25h[?25l[85;143H4[5;14H[?25h[?25l][46m,[mB,C]).[5;21H[K[5;13H[46m][m,[85;143H3[5;13H[?25h[?25l[46mX[m],B,C]).[5;13HX[46m][m[85;143H4[5;14H[?25h[85;1H[K[5;13H[?25l[85;130H^[[5;13H[85;130H  [5;14H[A|X][85;140H5,13[10CAll[5;13H[?25h[?25l[85;130H:[5;13H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 48L, 918C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro swipl[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [?- ['lab4-sol.pro[18G'[5G[19G[19G][4G[20G.
+[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:3:
+	Singleton variables: [R,S]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:4:
+	Singleton variables: [A,B,D]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:5:
+	Singleton variables: [A,B,C]
+[0m[1mtrue.[0m
+
+?- cdar(X,[[1,2[16G][12G[17G,3,4[21G][11G[22G[22G)[8G[23G.
+X = [2].
+
+?- N = 1 + 2.
+N = 1+2.
+
+?- N is 1 + 2.
+N = 3.
+
+?- N is 1 + 2*3.
+N = 7.
+
+?- 5 is 7 mod 2.
+[1;31mfalse.[0m
+
+?- 
+|    X is 7 mod 2.
+X = 1.
+
+?- X is -7 mod 3.
+X = 2.
+
+?- N is sqrt(4[15G)(4).
+N = 2.0.
+
+?- N = pi.
+N = pi.
+
+?- N is pi.
+N = 3.141592653589793.
+
+?- Q?- [Kquadratic_roots(2, 5, 2, z[29G[KZ[30G)[19G[31G.
+Z = -0.5 [1m;[0m
+Z = -2.0.
+
+?- 
+[12]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:27:48 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only                        [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,21[10CAll[5;21H[?25h[?1000l[?1002h[?25l[85;130H~@k[5;21H[85;130H   [5;20Hcdar[46m([14C)[m[85;143H0[5;20H[?25h[?25l[85;130H~@k[5;20H[85;130H   [5;21Hcdar([14C)[85;143H1[5;21H[?25h[?25l[85;130H~@k[5;21H[85;130H   [5;20Hcdar[46m([14C)[m[85;143H0[5;20H[?25h[?25l[85;130H~@k[5;20H[85;130H   [5;19Hcdar(X, [46m[[9C][m)[85;142H19[5;19H[?25h[?25l[85;130H~@k[5;19H[85;130H   [5;18H[5;9H[[9C][85;143H8[5;18H[?25h[?25l[85;130H~@k[5;18H[85;130H   [5;17H[85;143H7[5;17H[?25h[?25l[85;130H~@k[5;17H[85;130H   [5;16H[85;143H6[5;16H[?25h[?25l[85;130H~@k[5;16H[85;130H   [5;15H[85;143H5[5;15H[?25h[?25l[85;130H~@k[5;15H[85;130H   [5;14H[46m[[mA|B[46m][m[85;143H4[5;14H[?25h[?25l[85;130Ha[5;14H[85;130H [5;15H[85;1H[1m-- INSERT --[m[85;13H[K[85;140H5,15[10CAll[5;15H[?25h[?25l[85;143H4[5;14H[?25h[?25l][46m,[mB,C]).[5;21H[K[5;13H[46m][m,[85;143H3[5;13H[?25h[?25l[46mX[m],B,C]).[5;13HX[46m][m[85;143H4[5;14H[?25h[85;1H[K[5;13H[?25l[85;130H^[[5;13H[85;130H  [5;14H[A|X][85;140H5,13[10CAll[5;13H[?25h[?25l[85;130H:[5;13H[85;130H[K[85;1H:[?2004h[?25hx[?25l[?25h[?25l[?1002l[?2004l"lab4-sol.pro" 48L, 918C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tkmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro swipl[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- [?- ['lab4-sol.pro[18G'[5G[19G[19G][4G[20G.
+[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:3:
+	Singleton variables: [R,S]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:4:
+	Singleton variables: [A,B,D]
+[0m[31mWarning: /home/kmoshie1/i471a/submit/lab4/lab4-sol.pro:5:
+	Singleton variables: [A,B,C]
+[0m[1mtrue.[0m
+
+?- cdar(X,[[1,2[16G][12G[17G,3,4[21G][11G[22G[22G)[8G[23G.
+X = [2].
+
+?- N = 1 + 2.
+N = 1+2.
+
+?- N is 1 + 2.
+N = 3.
+
+?- N is 1 + 2*3.
+N = 7.
+
+?- 5 is 7 mod 2.
+[1;31mfalse.[0m
+
+?- 
+|    X is 7 mod 2.
+X = 1.
+
+?- X is -7 mod 3.
+X = 2.
+
+?- N is sqrt(4[15G)(4).
+N = 2.0.
+
+?- N = pi.
+N = pi.
+
+?- N is pi.
+N = 3.141592653589793.
+
+?- Q?- [Kquadratic_roots(2, 5, 2, z[29G[KZ[30G)[19G[31G.
+Z = -0.5 [1m;[0m
+Z = -2.0.
+
+?- 
+[12]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:27:48 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|X],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~           , (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|X],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,13[10CAll[5;13H[?25h[?1000l[?1002h[?25l[85;130H^Z[5;13H[85;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[23;2t[23;1t[22;2t[22;1t[?1002l[?2004l
+[13]+  Stopped                 vim lab4-sol.pro
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro swipl[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- quadratic_roots(2, 5, 2, Z[30G)[19G[31G.[19G[1@2(
+[31;1mERROR: Undefined procedure: quadratic_roots2/4 (DWIM could not correct goal)
+[0m?- 
+[14]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name "                                                                                                                                                 [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,13[10CAll[5;13H[?25h[?1000l[?1002h[?25l[85;130H^Z[5;13H[85;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[23;2t[23;1t[22;2t[22;1t[?1002l[?2004l
+[13]+  Stopped                 vim lab4-sol.pro
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro swipl[K
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- quadratic_roots(2, 5, 2, Z[30G)[19G[31G.[19G[1@2(
+[31;1mERROR: Undefined procedure: quadratic_roots2/4 (DWIM could not correct goal)
+[0m?- 
+[14]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swiplvim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:27:48 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|X],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                 .lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 14:27:48 2021
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 48L, 918C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H% proper listers are [a, b],[33m and [m[a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|X],B,C]).[9;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[49;1H[1m[34m~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H5,13[10CAll[5;13H[?25h[?1000l[?1002h[?25l[85;140H25,18[25;18H[?25h[?25l[85;130H^[[25;18H[85;130H  [25;18H[?25

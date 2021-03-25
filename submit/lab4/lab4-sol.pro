@@ -1,3 +1,11 @@
+
+% proper listers are [a, b], and [a|[b]]
+cddr(X, [R,S|X]).
+caddr(X, [A,B,X,D]).
+cdar(X, [[A|X],B,C]).
+
+
+
 quadratic_roots(A, B, C, Z) :-
   Discr is sqrt(B*B - 4*A*C),
   Z is (-B + Discr)/(2 * A).
