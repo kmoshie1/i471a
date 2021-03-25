@@ -1,0 +1,343 @@
+Script started on 2021-03-25 10:08:33-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="157" LINES="85"]
+kmoshie1@remote-n25:~/i471a/submit/lab4$ ?- ['lab4-sol.pro'].
+bash: ?-: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ racket
+Welcome to Racket v7.9 [bc].
+> ?- ['lab4-sol.pro'].
+; ?-: undefined;
+;  cannot reference an identifier before its definition
+;   in module: top-level
+; [,bt for context]
+; readline-input:1:18: read-syntax: unexpected `]` [,bt for context]
+; readline-input:1:19: read-syntax: illegal use of `.` [,bt for context]
+> 
+[1]+  Stopped                 racket
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4.LOG [K[K[K[K[K-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H"lab4-sol.pro" 40L, 812C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                                                                                                            [79;1H~                                                                                                                                                            [80;1H~                                                                                                                                                            [81;1H~                                                                                                                                                            [82;1H~                                                                                                                                                            [83;1H~                                                                                                                                                            [84;1H~                                                                                                                                                            [m[85;140H1,1[11CAll[1;1H[?25h[?1000l[?1002h[?25l[85;130H^Z[1;1H[85;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t[23;2t[23;1t[22;2t[22;1t[?1002l[?2004l
+[2]+  Stopped                 vim lab4-sol.pro
+kmoshie1@remote-n25:~/i471a/submit/lab4$ f(X, a) = f(a, Y).
+bash: syntax error near unexpected token `X,'
+kmoshie1@remote-n25:~/i471a/submit/lab4$ v[Kclear
+[H[2J[3Jkmoshie1@remote-n25:~/i471a/submit/lab4$ ['lab4-sol.pro'].
+bash: [lab4-sol.pro].: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ ?- ['lab4-sol.pro'].
+bash: ?-: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ true.
+bash: true.: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ ?- ['lab4-sol.pro'].
+bash: ?-: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ true.
+bash: true.: command not found
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- f(X, a[10G)[5G[11G = f(a, Y[20G)[15G[21G.
+X = Y, Y = a.
+
+?- f(X, a[10G)[5G[11G = f(a, X[20G)[15G[21G.
+X = a.
+
+?- f(X, a[10G)[5G[11G = f(b, X[20G)[15G[21G.
+[1;31mfalse.[0m
+
+?- f(X, Y[10G)[5G[11G = f(a, a[20G)[15G[21G, g(X, Y[29G)[24G[30G = g(a, b[39G)[34G[40G.
+[1;31mfalse.[0m
+
+?- f(1, 2 ,[11G[K[10G, z[13G)[5G[14G.
+[31;1mERROR: Undefined procedure: f/3 (DWIM could not correct goal)
+[0m?- ?- f(1, 2, z).[14G .[15G=.[16G .[17Gf.[18G(.[19Gz.[20G,.[21G .[22GY.[23G).[18G[24G
+[1;31mfalse.[0m
+
+?- ?- f(1, 2, z) = f(z, Y)..[23G.[K[22G.[K[21G.[K[20G.[K[19G.[K[18G.[K[17G.[K[16G.[K[15G.[K[14G.[K?- f[1@f(?- f[1@(f[6G[1@1f[7G[1@,f[8G[1@ f[9G[1@2f[10G[1@ f[11G[1@zf[12G[1@)f[5G[13G[13G[1@ f[14G[1@=f[15G[1@ f[10G[1@, 
+[1mtrue.[0m
+
+?- ?- f(1, 2, z) = f(1, 2, z). z[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)?- f[P)?- f[1@()[6G[1@1)[6G[P)[6G[1@X)[7G[1@,)[8G[1@ )[9G[1@Y)[10G[1@,)[11G[1@ )[12G[1@z)
+X = 1,
+Y = 2.
+
+?- ?- f(X, Y, z) = f(1, 2, z).[12G[P)[12G[1@1)
+[1;31mfalse.[0m
+
+?- ?- f(X, Y, 1) = f(1, 2, z).[12G[P)[12G[1@z)
+X = 1,
+Y = 2.
+
+?- ?- f(X, Y, z) = f(1, 2, z).z[12G[P)[12G[1@Z)) = f(1, 2, z [15G[1@(=[15G[P=
+X = 1,
+Y = 2,
+Z = z.
+
+?- ?- f(X, Y, Z) = f(1, 2, z).[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)[6G[1@2)[6G[P)[6G[1@1)[7G[1@,)[8G[1@ )[9G[1@2)[10G[1@ )[10G[P)[10G[1@,)[11G[1@ )[12G[1@X)
+X = z.
+
+?- f(?- f[K?- [Khead(a, tail(z, B[21G)[16G[22G, Y[25G)[8G[26G.?- [1@Fh?- F[1@(h?- F[Ph?- [Ph?- [1@fh?- f[1@(h[6G[1@1h[7G[1@,h[8G[1@2h[8G[Ph[7G[Ph[6G[Ph[6G[1@Xh[7G[1@ h[8G[1@Yh[9G[1@ h[10G[1@Zh[11G[1@)h[5G[12G[12G[1@ h[13G[1@=h[14G[1@ h
+[31;1mERROR: Syntax error: Operator expected
+ERROR: f(X
+ERROR: ** here **
+ERROR:  Y Z) = head(a, tail(z, B), Y) . 
+[0m?- ?- f(X Y Z) = head(a, tail(z, B), Y).[7G[1@,  Y [10G[1@, 
+[1;31mfalse.[0m
+
+?- ?- f(X, Y, Z) = head(a, tail(z, B), Y).). Z[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)[6G[1@h)[7G[1@e)[8G[1@a)[9G[1@d)[9G[P)[8G[P)[7G[P)[6G[P)[6G[1@t)[7G[1@a)[8G[1@i)[8G[P)[7G[P)[6G[P)[6G[1@h)[7G[1@e)[8G[1@a)[9G[1@d)[10G[1@()[11G[1@z)[12G[1@,)[13G[1@b)[13G[P)[13G[1@B)[15G[1@) [10G[15G
+[1;31mfalse.[0m
+
+?- ?- f(head(z,B)) = head(a, tail(z, B), Y).([6G[1@Xh[7G[1@,h[8G[1@ hhead(z,B)[18G[1@,)[19G[1@ )[20G[1@Y)
+[1;31mfalse.[0m
+
+?- ?- f(X, head(z,B), Y) = head(a, tail(z, B), Y).(z,B), Y[20G[P)[19G[P)[18G[P)[18G[P [16G[P)[15G[P)[14G[P)[13G[P)[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)[6G[1@h)[7G[1@e)[8G[1@a)[9G[1@d)[10G[1@()[12G[1@) ()
+[1;31mfalse.[0m
+
+?- ?- f(head()) = head(a, tail(z, B), Y).[12G[P [10G[P)[9G[P)[8G[P)[7G[P)[6G[P)[6G[1@_)[7G[1@,)[8G[1@_)[9G[1@,)[10G[1@_)
+[1;31mfalse.[0m
+
+?- ?- f(_,_,_) = head(a, tail(z, B), Y).[10G[P)[9G[P)[8G[P)[7G[P)
+[1;31mfalse.[0m
+
+?- ?- f(_) = head(a, tail(z, B), Y).[7G[1@,)[8G[1@_)
+[1;31mfalse.[0m
+
+?- ?- f(_,_) = head(a, tail(z, B), Y).[9G[1@,)[10G[1@U)[10G[P)[10G[1@_)[11G[1@,)[12G[1@_)
+[1;31mfalse.[0m
+
+?- ?- f(_,_,_,_) = head(a, tail(z, B), Y).[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)) = he[9G[Ph[8G[Ph[7G[Ph[6G[Ph?- f[Ph?- [Ph
+[31;1mERROR: Undefined procedure: head/3
+ERROR:     However, there are definitions for:
+ERROR:         read/1
+ERROR:         read/2
+[0m[1;31mfalse.[0m
+
+?- ?- head(a, tail(z, B), Y).?- [1@fh?- f[1@(h[6G[1@Xh[7G[1@ h[7G[Ph[7G[1@,h[8G[1@ h[9G[1@Yh[9G[Ph[8G[Ph[7G[Ph[6G[Ph[6G[1@_h[7G[1@,h[8G[1@ h[9G[1@Yh[10G[1@,h[11G[1@ h[11G[Ph[10G[Ph[9G[Ph[9G[1@zh[9G[Ph[9G[1@xh[9G[Ph[9G[1@Xh[10G[1@,h[11G[1@ h[12G[1@_h[13G[1@)h[5G[14G[14G[1@ h[15G[1@=h[16G[1@ h
+[1;31mfalse.[0m
+
+?- _ ?- [K?- _?- [K?- f(_, X, _) = head(a, tail(z, B), Y)._[9G[1@hX[10G[1@eX[11G[1@aX[12G[1@dX[13G[1@(XX[15G[1@),(X)
+[1;31mfalse.[0m
+
+?- ?- f(_, head(X), _) = head(a, tail(z, B), Y).[19G[P [18G[P [18G[P=[16G[P [15G[P [14G[P [13G[P [12G[P [11G[P [10G[P [9G[P [9G[P=[7G[P [6G[P ?- f[P ?- [P  =?-  [P ?-  [Ph?- [1@f ?- f[1@( [6G[1@) ()[7G[1@= [7G[P [8G[1@ h[8G[1@= 
+[1;31mfalse.[0m
+
+?- ?- f() = head(a, tail(z, B), Y).?- [K?- ?- ?- ?- ?- f() = head(a, tail(z, B), Y). ?- f[1@a(a?- f[P(([6G[1@a)[7G[1@,)[8G[1@ )[9G[1@t)[10G[1@a)[11G[1@i)[12G[1@l)[13G[1@()[14G[1@z)[15G[1@,)[16G[1@B)[16G[P)[16G[1@ )[17G[1@B)[19G[1@) [13G[19G[19G[1@,)[20G[1@ )[21G[1@Y)
+[1;31mfalse.[0m
+
+?- ?- f(a, tail(z, B), Y) = head(a, tail(z, B), Y).[21G[P)[20G[P)[19G[P)[19G[P [17G[P)[16G[P)[15G[P)[14G[P)[13G[P)[12G[P)[11G[P)[10G[P)[9G[P)[8G[P)[7G[P)[6G[P)^C
+[33Ga[6G[13@_, head(X), _[46G[K[6G[13P)[33G[6G[16@a, tail(z, B), Y)[49G[6G[16P)[33G
+
+Action (h for help) ? 
+[3]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- ?- ?- f(head(a, tail(z, B[23G)[18G[24G, Y[27G)[10G[28G.[28G[K[28G)[5G[29G = head(a, tail(z, B[49G)[44G[50G, Y[53G)[36G[54G.
+[1;31mfalse.[0m
+
+?- ?- f(head(a, tail(z, B), Y)) = head(a, tail(z, B), Y).e[31G[Ph[30G[Ph[29G[Ph[28G[Ph[27G[Ph[26G[Ph[25G[Ph[24G[Ph[23G[Ph[22G[Ph[21G[Ph[20G[Ph[19G[Ph[18G[Ph[17G[Ph[16G[Ph[15G[Ph[14G[Ph[13G[Ph[12G[Ph[11G[Ph[10G[Ph[9G[Ph[8G[Ph[7G[Ph[7G[Pe?- f[Ph?- [Ph?- h[1@he?- h[1@eh[6G[1@ah[7G[1@dh[7G[Ph[6G[Ph?- h[Ph?- h[Pe?- [1@[h?- [[1@Hh?- [[Ph?- [[1@_h[6G[1@ h[7G[1@Xh[7G[Ph[6G[Ph[6G[1@|h[7G[1@Xh[8G[1@|h[9G[1@_h[10G[1@]h[4G[11G[11G[1@ h[12G[1@=h[13G[1@ h
+[31;1mERROR: Syntax error: Unexpected comma or bar in rest of list
+ERROR: [_|
+ERROR: ** here **
+ERROR: X|_] = head(a, tail(z, B), Y) . 
+[0m?- ?- [_|X|_] = head(a, tail(z, B), Y)._[9G[P][8G[P][7G[P][6G[P]?- [[P]?- [[1@X][6G[1@|][7G[1@_]
+[1;31mfalse.[0m
+
+?- ?- [X|_] = head(a, tail(z, B), Y).[8G[P [7G[P [6G[P ?- [[P ?- [P ?- [1@a 
+[1;31mfalse.[0m
+
+?- ?- a = head(a, tail(z, B), Y).?- [P ?- [1@X 
+X = head(a, tail(z, B), Y).
+
+?- ?- X = head(a, tail(z, B), Y). = head(a, tail(z, B), Y).=[7G[1@h [8G[1@e [9G[1@a [10G[1@d [10G[P [9G[P [8G[P [7G[P [6G[P [6G[1@= [8G[1@ h[8G[Ph?- [K?- X = head(a, tail(z, B), Y).?- a[31G?- X[31G?- [1@[XX[6G[1@] ?- [X]
+[1;31mfalse.[0m
+
+?- ?- [X] = head(a, tail(z, B), Y).[7G[1@, [8G[1@X 
+[31;1mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR:   [14] throw(error(instantiation_error,_4110))
+ERROR:    [8] '<meta-call>'(user:(...,...)) <foreign>
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- ?- [X],X = head(a, tail(z, B), Y).[8G[P [7G[P [6G[P ?- [[P ?- [P ?- [1@X [6G[1@ =[6G[1@= [6G[P [6G[1@: [7G[1@-  [9G[1@ =[9G[1@z 
+[31;1mERROR: Undefined procedure: (:-)/2
+ERROR:   Rules must be loaded from a file
+ERROR:   See FAQ at http://www.swi-prolog.org/FAQ/ToplevelMode.txt
+ERROR: In:
+ERROR:    [9] throw(error(existence_error(procedure,...),_5322))
+ERROR:    [8] '$dwim':dwim_existence_error(error,user:(:-)/2) at /usr/lib/swi-prolog/boot/dwim.pl:113
+ERROR:    [6] '$dwim':correct_goal((_5412:-z= ...),user,['X'=_5432,...|...],_5408) at /usr/lib/swi-prolog/boot/dwim.pl:85
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- ?- X :- z = head(a, tail(z, B), Y).[9G[P [9G[1@h [10G[1@e [11G[1@a [12G[1@d [13G[1@( [14G[1@z [15G[1@, [16G[1@B [17G[1@) [13G[18G
+[31;1mERROR: Undefined procedure: (:-)/2
+ERROR:   Rules must be loaded from a file
+ERROR:   See FAQ at http://www.swi-prolog.org/FAQ/ToplevelMode.txt
+ERROR: In:
+ERROR:    [9] throw(error(existence_error(procedure,...),_6686))
+ERROR:    [6] '$dwim':correct_goal((_6732:- ... = ...),user,['X'=_6752,...|...],_6728) at /usr/lib/swi-prolog/boot/dwim.pl:85
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- ?- X :- head(z,B) = head(a, tail(z, B), Y).(z,B)[17G[P [16G[P [15G[P [14G[P [13G[P [12G[P [11G[P [10G[P [9G[P [9G[P=[7G[P [6G[P 
+X = head(a, tail(z, B), Y).
+
+?- ?- X  = head(a, tail(z, B), Y).X  [6G[P=?- [K?- X  = head(a, tail(z, B), Y).[6G[P==[8G[1@ h[8G[1@h [9G[1@e [10G[1@a [11G[1@d [12G[1@( [12G[P [11G[P [10G[P [9G[P [8G[P [8G[Ph[6G[P [6G[1@= [8G[1@ h[8G[1@h [9G[1@e [10G[1@a [11G[1@d [12G[1@( [9G[1@he[9G[1@eh[10G[1@ah[11G[1@dh[12G[1@(hhead( head(a, tail(z, B), Y)[41G).[17G[42G[42G).[12G[43G
+X = head(head(head(a, tail(z, B), Y))).
+
+?- ?- X = head(head( head(a, tail(z, B), Y))).[8G[1@Zh[9G[1@ h[9G[Ph[8G[Ph[8G[1@zh[9G[1@ h[10G[1@=h[11G[1@ h
+[31;1mERROR: Syntax error: Operator priority clash
+ERROR: X 
+ERROR: ** here **
+ERROR: = z = head(head( head(a, tail(z, B), Y))) . 
+[0m?- ?- X = z = head(head( head(a, tail(z, B), Y))).[8G[P [8G[1@Y 
+[31;1mERROR: Syntax error: Operator priority clash
+ERROR: X 
+ERROR: ** here **
+ERROR: = Y = head(head( head(a, tail(z, B), Y))) . 
+[0m?- ?- X = Y = head(head( head(a, tail(z, B), Y))).[9G[P=[8G[P=[7G[P=[7G[P = head(head(([17G[P [16G[P [15G[P [14G[P [13G[P [12G[P [11G[P [10G[P [9G[P [8G[P  head(a, tail(z, B), Y)))[32G.[K[31G.[K[8G[Ph
+X = head(a, tail(z, B), Y).
+
+?- X?- [K[a, b[9G][4G[10G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- [a|b[8G][4G[9G.
+[31;1mERROR: Type error: `list' expected, found `b' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,b),_10320))
+ERROR:   [11] '$load_files'([a|b],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [a|[b[9G][b][10G][4G[11G.
+[31;1mERROR: source_sink `a' does not exist
+[0m[31;1mERROR: source_sink `b' does not exist
+[0m[1mtrue.[0m
+
+?- [a|[b|c[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Type error: `list' expected, found `c' (an atom)
+ERROR: In:
+ERROR:   [14] throw(error(type_error(list,c),_13796))
+ERROR:   [11] '$load_files'([a,b|c],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- [A|[B|C[11G][7G[12G[12G][4G[13G.
+[31;1mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR:   [14] throw(error(instantiation_error,_15436))
+ERROR:   [11] '$load_files'([_15468,_15474|_15476],user,[expand(true)]) at /usr/lib/swi-prolog/boot/init.pl:1880
+ERROR:    [7] <user>
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m?- cddr([1,2[12G[K 3, [15G[14G[K[13G[K2, 3, 4[20G][9G[21G[21G)[8G[22G
+|    
+|    [6G[A|[B|C]].[6G[K
+[4]+  Stopped                 swipl
+kmoshie1@remote-n25:~/i471a/submit/lab4$ vim lab4-sol.pro 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;85r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[85;1H[1m[37m[41mE325: ATTENTION[m
+Found a swap file by the name ".lab4-sol.pro.swp"
+[10Cowned by: kmoshie1   dated: Thu Mar 25 10:09:39 2021
+[9Cfile name: ~kmoshie1/projects/i471a/submit/lab4/lab4-sol.pro
+[10Cmodified: no
+[9Cuser name: kmoshie1   host name: remote-n25
+[8Cprocess ID: 746427 (STILL RUNNING)
+While opening file "lab4-sol.pro"
+[13Cdated: Thu Mar 25 10:01:38 2021
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab4-sol.pro"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab4-sol.pro.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".lab4-sol.pro.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[85;1H[K[?25l[85;1H"lab4-sol.pro" 40L, 812C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hquadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  Z is (-B - Discr)/([31m2[m * A).
+
+quadratic_roots2(A, B, C, Z) :-
+  Discr is [32msqrt[m(B*B - [31m4[m*A*C),
+  quadratic_roots2(Discr, A, B, C, Z).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B + Discr)/([31m2[m * A).
+
+quadratic_roots2(Discr, A, B, _C, Z) :-
+  Z is (-B - Discr)/([31m2[m * A).
+
+sum_lengths([], [31m0[m).
+sum_lengths([X|Xs], Z):-
+  length(X, LX),
+  sum_lengths(Xs, XsLen),
+  Z is LX + XsLen.
+
+
+sum_areas([], [31m0[m).
+sum_areas([Shape|Shapes], Sum):-
+  area(Shape, ShapeArea),
+  sum_areas(Shapes, ShapesArea),
+  Sum is ShapeArea + ShapesArea.
+
+area(rectangle(W, H), Area):-
+  Area is W*H.
+area(square(W), Area):-
+  Area is W*W.
+area(circle(R), Area):-
+  Area is pi*R*R.[41;1H[1m[34m~                                                                                                                                                            [42;1H~                                                                                                                                                            [43;1H~                                                                                                                                                            [44;1H~                                                                                                                                                            [45;1H~                                                                                                                                                            [46;1H~                                                                                                                                                            [47;1H~                                                                                                                                                            [48;1H~                                                                                                                                                            [49;1H~                                                                                                                                                            [50;1H~                                                                                                                                                            [51;1H~                                                                                                                                                            [52;1H~                                                                                                                                                            [53;1H~                                                                                                                                                            [54;1H~                                                                                                                                                            [55;1H~                                                                                                                                                            [56;1H~                                                                                                                                                            [57;1H~                                                                                                                                                            [58;1H~                                                                                                                                                            [59;1H~                                                                                                                                                            [60;1H~                                                                                                                                                            [61;1H~                                                                                                                                                            [62;1H~                                                                                                                                                            [63;1H~                                                                                                                                                            [64;1H~                                                                                                                                                            [65;1H~                                                                                                                                                            [66;1H~                                                                                                                                                            [67;1H~                                                                                                                                                            [68;1H~                                                                                                                                                            [69;1H~                                                                                                                                                            [70;1H~                                                                                                                                                            [71;1H~                                                                                                                                                            [72;1H~                                                                                                                                                            [73;1H~                                                                                                                                                            [74;1H~                                                                                                                                                            [75;1H~                                                                                                                                                            [76;1H~                                                                                                                                                            [77;1H~                                                                                                                                                            [78;1H~                                                                         
