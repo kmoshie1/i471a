@@ -8,22 +8,25 @@ import Debug.Trace
 -- negative square-root of the discriminant.  Need not handle complex
 -- roots.
 quadraticRoots :: Floating t => t -> t -> t -> (t, t)
-quadraticRoots a b c =
-  undefined
+quadraticRoots a b c = (x, y)
+		where
+			x = m + sqrt n / (2 * a)
+			y = m - sqrt n / (2 * a)
+			n = b * b - (4 * a * c)
+			m = - b / (2 * a)
 
 -- Problem 2
 -- Return infinite list containing [z, f(z), f(f(z)), f(f(f(z))), ...]
 -- May use recursion.
 iterateFunction :: (a -> a) -> a -> [a]
-iterateFunction f z =
-  undefined
+iterateFunction f z = z : iterateFunction f (f z)
+--helped by stack overflow, cited in README
 
 -- Problem 3
 -- Using iterateFunction return infinite list containing 
 -- multiples of n by all the non-negative integers.
 -- May NOT use recursion.
-multiples n =
-  undefined
+multiples n = iterateFunction (+n) 0
 
 -- Problem 4
 -- Use iterateFunction to return an infinite list containing list 
@@ -34,22 +37,24 @@ multiples n =
 -- May NOT use recursion.
 -- See <https://en.wikipedia.org/wiki/Collatz_conjecture>
 hailstones :: Integral a => a -> [a]
-hailstones n =
-  undefined
+hailstones n = iterateFunction(if odd n
+			then (3*n+1)
+			else n `div` 2) n
+
+	
 
 -- Problem 5
 -- Return length of hailstone sequence starting with n terminating
 -- at the first 1.
 -- May NOT use recursion.  Can use elemIndex from Data.List
 hailstonesLen :: Integral a => a -> Int
-hailstonesLen n =
-  undefined
+hailstonesLen n = undefined
 
 -- Problem 6
 -- Given a string s and char c, return list of indexes in s where c
 -- occurs
-occurrences s c =
-  undefined
+occurrences s c = [ y | (x, y) <- zip s [0..], x == c ]
+--helped by stack overflow, cited in README
 
 -- A tree of some type t is either a Leaf containing a value of type t,
 -- or it is an internal node (with constructor Tree) with some left
@@ -66,8 +71,11 @@ data Tree t = Leaf t
 -- leafFn to the value stored within the Leaf node.
 -- May use recursion.
 foldTree :: (t1 -> t -> t1 -> t1) -> (t -> t1) -> Tree t -> t1
-foldTree treeFn leafFn tree =
-  undefined
+foldTree treeFn leafFn tree = 
+	case tree of
+		Leaf n -> leafFn n
+		Tree left m right -> treeFn (foldTree treeFn leafFn left) m (foldTree treeFn leafFn right)
+--helped by stack overflow, cited in README
   
 -- Problem 8
 -- Return list containing flattening of tree.  The elements of the
@@ -75,9 +83,8 @@ foldTree treeFn leafFn tree =
 -- an in-order traversal of the tree. Must be implemented using foldTree.
 -- May NOT use recursion.
 flattenTree :: Tree a -> [a]
-flattenTree tree =
-  undefined
-
+flattenTree tree = foldTree (\xs x ys -> xs ++ x : ys) (\x -> [x]) tree
+--helped by stack overflow, cited in README
 
 -- Problem 9
 -- Given tree of type (Tree [t]) return list which is concatenation
@@ -85,5 +92,4 @@ flattenTree tree =
 -- Must be implemented using flattenTree.
 -- May NOT use recursion.
 catenateTreeLists :: Tree [a] -> [a]
-catenateTreeLists tree =
-  undefined
+catenateTreeLists tree = concat (flattenTree(tree))
