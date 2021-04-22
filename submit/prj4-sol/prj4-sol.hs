@@ -37,10 +37,7 @@ multiples n = iterateFunction (+n) 0
 -- May NOT use recursion.
 -- See <https://en.wikipedia.org/wiki/Collatz_conjecture>
 hailstones :: Integral a => a -> [a]
-hailstones n = iterateFunction(if odd n
-			then (3*n+1)
-			else n `div` 2) n
-
+hailstones n = iterateFunction (\n->if even n then n `div` 2 else 3 * n + 1) n
 	
 
 -- Problem 5
@@ -48,7 +45,11 @@ hailstones n = iterateFunction(if odd n
 -- at the first 1.
 -- May NOT use recursion.  Can use elemIndex from Data.List
 hailstonesLen :: Integral a => a -> Int
-hailstonesLen n = undefined
+hailstonesLen n = case elemIndex 1 (hailstones n) of
+		Nothing -> -1
+		Just n -> n+1
+		
+
 
 -- Problem 6
 -- Given a string s and char c, return list of indexes in s where c
