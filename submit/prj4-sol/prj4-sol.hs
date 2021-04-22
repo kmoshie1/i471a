@@ -39,7 +39,6 @@ multiples n = iterateFunction (+n) 0
 hailstones :: Integral a => a -> [a]
 hailstones n = iterateFunction (\n->if even n then n `div` 2 else 3 * n + 1) n
 	
-
 -- Problem 5
 -- Return length of hailstone sequence starting with n terminating
 -- at the first 1.
