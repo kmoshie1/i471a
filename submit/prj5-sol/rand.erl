@@ -13,12 +13,28 @@ next_rand(X) ->
   (X*A + C) rem M.  %standard linear-congruential generator
 
 % start rand server; next rand # generated will be next_rand(Seed).
-start(Seed) -> 'TODO'.
+start(Seed) -> 
+	spawn(rand, server, [Seed]).
 
 % stop rand server with PID ServerPid.
-stop(ServerPid) -> 'TODO'.
+stop(ServerPid) -> 
+	ServerPid ! stop.
 
 % return next random number from server at ServerPid
-rand(ServerPid) -> 'TODO'.
+rand(ServerPid) ->
+	ServerPid ! { self(), ServerPid },
+	receive
+		{ _, Result } -> Result
+	end.
 
 % TODO: auxiliary functions...
+
+server(CurrentSeed) ->
+	receive
+		{ ClientPid, _ } ->
+			Result = next_rand(CurrentSeed),
+			ClientPid ! { self(), Result },
+			server(Result);
+		stop ->
+			true
+	end.
