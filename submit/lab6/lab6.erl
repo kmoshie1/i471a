@@ -85,7 +85,7 @@ grade_points(Grades) ->
 	lists:map(fun({_, Type}) -> Type end, Grades).
 
 letter_grades(Grades) ->
-	lists:map(fun({_, Type}) -> Type end, Grades).
+	list:map(fun{Name, Points)} -> {Name, letter_grade(Points) end, Grades).
 
   
 %% Exercise 4
